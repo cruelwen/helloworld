@@ -1,9 +1,5 @@
-desc "default"
+desc "Run rspec"
 task :default do
-  puts "hello"
+  system "rspec"
 end
 
-desc "test"
-task :default do
-  puts "test"
-end
