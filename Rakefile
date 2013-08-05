@@ -1,5 +1,5 @@
-desc "Run rspec"
+desc "Empty"
 task :default do
-  system "rspec"
+  puts "Empty!"
 end
 
