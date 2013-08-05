@@ -1,6 +1,6 @@
 # bowling_spec.rb
 
-$:.unshift(File.expand_path("../../", __FILE__))
+$:.unshift(File.expand_path("../../lib", __FILE__))
 require 'bowling'
 
 describe Bowling, "#score" do
@@ -12,7 +12,7 @@ describe Bowling, "#score" do
 end
 
 describe Bowling, "#hit" do
-  it "returns 0 for all gutter game" do
+  it "hit should be 0" do
     bowling = Bowling.new
     bowling.hit(0).should == 0
   end
