@@ -1,7 +1,7 @@
 # bowling.rb
 class Bowling
   def hit(pins)
-    1
+    0
   end
 
   def score
